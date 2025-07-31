@@ -106,6 +106,7 @@ function App() {
               margin="dense"
               size="small"
               sx={{ mb: 2 }}
+              placeholder="Enter price per unit"
             />
             <TextField
               label="Quantity"
@@ -116,6 +117,7 @@ function App() {
               margin="dense"
               size="small"
               sx={{ mb: 2 }}
+              placeholder="Enter quantity"
             />
             <TextField
               label="Discount"
@@ -126,7 +128,7 @@ function App() {
               margin="dense"
               size="small"
               inputProps={{ min: 0 }}
-              placeholder="Discount for this row"
+              placeholder="Apply discount"
               sx={{ mb: 2 }}
             />
             <Divider sx={{ my: 2 }} />
